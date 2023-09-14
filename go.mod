@@ -1,6 +1,6 @@
-module github.com/nwg-piotr/nwg-drawer
+module github.com/hyyoxhk/nwg-drawer
 
-go 1.19
+go 1.18
 
 require (
 	github.com/allan-simon/go-singleinstance v0.0.0-20210120080615-d0997106ab37
@@ -18,3 +18,5 @@ require (
 	golang.org/x/sync v0.0.0-20190412183630-56d357773e84 // indirect
 	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
 )
+
+replace github.com/gotk3/gotk3 v0.6.1 => github.com/hyyoxhk/gotk3 v0.6.5
